@@ -1,0 +1,87 @@
+/* ------------------------- Boostrap CSS ------------------------- */
+
+:root {
+    --bs-primary: #005C9E;
+    --primary-color: #096DB5;
+    --primary-dark-color: #005C9E;
+    --secondary-color: #D32F2F;
+    --tertiary-color: #C0C0C0;
+    --background-color: #333333;
+    --font-color: #FEFEFE;
+
+}
+
+.btn-primary {
+    --bs-btn-color: var(--font-color);
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-color: var(--font-color);
+    --bs-btn-hover-bg: var(--primary-dark-color);
+    --bs-btn-hover-border-color: var(--primary-dark-color);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: var(--font-color);
+    --bs-btn-active-bg: var(--primary-dark-color);
+    --bs-btn-active-border-color: var(--primary-color);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--primary-color);
+    --bs-btn-disabled-bg: var(--primary-color);
+    --bs-btn-disabled-border-color: var(--primary-color);
+}
+
+/* ------------------------- CUSTOM CSS ------------------------- */
+body {
+    font-family: 'Source Code Pro', Arial, sans-serif;
+    background: var(--background-color);
+    color: var(--font-color);
+}
+
+p.description {
+    width: 50%;
+    text-justify: auto;
+}
+
+.card {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: 185px;
+    min-width: 185px;
+    border: none; 
+    margin: 10px; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: calc(185px * 1.5);
+    min-height: calc(185px * 1.5);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #dbdbdb;
+}
+
+.content {
+    width: 100%;
+    padding-bottom: 12px;
+    white-space: normal;
+}
+
+.search-section .input-group {
+    width: 80%;
+}
+
+.buttons-pagination {
+    width: 100%;
+    height: auto;
+}
+
+
+.button-previous, .button-next {
+    display: none;
+}
